@@ -1,0 +1,42 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview2"
+				android:focusable="false"
+				android:layout_width="175dp"
+				android:layout_height="175dp"
+				android:background="#101D24"
+				android:src="@drawable/prakasa_jr64_search_github_2"
+				android:scaleType="centerCrop"
+				android:layout_gravity="center_horizontal|center_vertical" />
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageview3"
+			android:focusable="false"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:padding="10dp"
+			android:background="#009688"
+			android:src="@drawable/ic_akaskamera"
+			android:scaleType="fitCenter"
+			android:translationX="60.0dp"
+			android:translationY="-50.0dp" />
+	</LinearLayout>
+</LinearLayout>
